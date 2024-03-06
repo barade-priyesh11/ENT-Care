@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Sora, sans-serif;
+}
+nav{
+    background-color: #e7f8ff;
+}
+.main-nav-link{
+    font-size: 19px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.nav-item{
+    padding-left: 1rem;
+}
+.main-logo{
+    width: 10rem;
+    height: 3rem;
+}
+.doctor-title{
+    /* top: 54%;
+    left: 13%; */
+    font-weight: 500;
+    padding-left: 8px;
+    font-size: 60px;
+    /* transform: translate(-50%, -50%); */
+    letter-spacing: 1px;
+    color: #031b4e;
+    z-index: 1;
+}
+.doctor-subtitle{
+    display: flex;
+    /* top: 64%;
+    left: 11.5%; */
+    font-weight: 500;
+    /* transform: translate(-50%, -50%); */
+    letter-spacing: 1px;
+    padding-left: 11px;
+    color: #031b4e;
+    z-index: 1;
+}
+.doctor-subtitle-text{
+    font-size: 15px;
+}
+.bx-fast-forward{
+    height: 15px;
+    width: 15px;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.doctor-cover-image{
+    /* position: absolute; */
+    width: 100%;
+    height: 31.5rem;
+    border-radius: 1rem;
+    z-index: -1;
+    opacity: 0.4;
+}
+.doctor-cover-section{
+    display: flex;
+    flex-direction: column;
+    height: 31.5rem;
+    justify-content: center;
+    padding-left: 2rem;
+    /* align-items: center; */
+}
+.doctor-cover-section::before{
+    content: "";
+    background: url('../Images/doctors-cover-image.png') no-repeat center center/cover; 
+    position: absolute;
+    left: 1.5%;
+    width: 97%;
+    height: 31.5rem;
+    border-radius: 23px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.body-col{
+    background-color: #e7f8ff;
+}
+
+.doctor-bg-color{
+    display: inline;
+    background-color: #ffffff; 
+    font-size: 13px;
+    color: #3368C6;
+    border-radius: 24px;
+}
+.doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 5rem 0rem 5rem;
+}
+.doctor-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.doctors-title{
+    /* padding-top: 1.5rem; */
+    color: #031b4e;
+    padding-bottom: 1rem;
+}
+.doctor-list{
+    display: flex;
+    height: 27rem;
+    width: 20rem ;
+}
+.card{
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.certificate-2{
+    width: 30rem;
+}
+.card-title{
+    text-align: center; 
+}
+.card-text-special{
+    font-size: 15px;
+}
+.card-text-special-2{
+    font-size: 14px;
+}
+.card-special-btn{
+    margin: auto;
+}
+.card{
+    width: 304px;
+    height: 462px;
+}
+.card-title, .card-text{
+    color: #031b4e;
+}
+.span-text{
+    color: #3368C6;
+}
+.card-btn{
+    background-color: #031b4e;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
