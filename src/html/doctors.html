@@ -22,71 +22,44 @@
 
 <body class="body-col">
 
-    <nav class="navbar navbar-expand-lg py-1">
-        <h1 class="site-title""><a href=" https://xcare-demo.pbminfotech.com/demo1/" rel="home"><span
-                class="site-title-text"></span><img class="main-logo"
-                src="https://xcare-demo.pbminfotech.com/demo1/wp-content/uploads/sites/3/2024/01/logo.svg"
-                alt="Xcare Demo1" title="Xcare Demo1" /></a></h1><!-- Logo area -->
-        <a class="navbar-brand" href="#"
-            style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></a>
-        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://xcare-demo.pbminfotech.com/demo1/wp-content/uploads/sites/3/2024/01/logo.svg" alt="" class="main-logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse pe-2 " id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active" style="margin: 2px;">
-                    <a class="nav-link main-nav-link" href="#"
-                        style="color:hsl(212, 91%, 17%);  font-style: normal;  margin: 0px;">Home</a>
-                </li>
-                <li class="nav-item" style="margin: 2px;">
-                    <a class="nav-link main-nav-link" href="about.html"
-                        style="color:hsl(212, 91%, 17%);font-style: normal;   margin: 0px;">About</a>
-                </li>
-                <li class="nav-item" style="margin: 2px;">
-                    <a class="nav-link main-nav-link disabled" href="#"
-                        style="color:hsl(212, 91%, 17%);font-style: normal;   margin: 0px;">Contact
-                        Us</a>
-                </li>
-                <li class="nav-item dropdown" style="margin: 2px;">
-                    <a class="nav-link main-nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        style="color:hsl(212, 91%, 17%); font-style: normal;  margin: 0px;">
-                        Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-                        <a class="dropdown-item" href="./HTML/Ear_Page.HTML">Ear</a>
-                        <a class="dropdown-item" href="#">Nose</a>
-                        <a class="dropdown-item" href="#">Throat</a>
-                    </div>
-                </li>
-                <li class="nav-item" style="margin: 2px;">
-                    <a class="nav-link main-nav-link disabled" href="#"
-                        style="color:hsl(212, 91%, 17%);font-style: normal; margin: 0px;">Doctors</a>
-                </li>
-            </ul>
-            <div style=" display: flex;">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"
-                            style="color:hsl(212, 91%, 17%); font-style: normal; background-color: #004085; color:white; margin: 1px; margin-left: 0px; border-radius: 23px;padding: 12px;border: 2px solid rgb(86, 86, 155);">Feedback
-                            Form</a>
-                    </li>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ear</a></li>
+                  <li><a class="dropdown-item" href="#">Nose</a></li>
+                  <li><a class="dropdown-item" href="#">Throat</a></li>
                 </ul>
-            </div>
-
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
             </ul>
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item" style="margin: 2px;">
-                    <a class="nav-link" href="#"
-                        style="display:inline-block; color: hsl(212, 91%, 17%); font-style: normal;  background-color: #004085; color: white;  margin: 2px; margin-left: 0px;   border-radius: 23px;padding: 12px; border: 2px solid rgb(86, 86, 155);">Appointment
-                        Booking</a>
-                </li>
-
+            <ul class="btn-group my-auto">
+              <button class="btn btn-outline-success" type="submit">Feedback Form</button>
+              <button class="btn btn-outline-success" type="submit">Appointment Form</button>
             </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <section class="container-fluid px-3">
         <div class="doctor-cover-section mb-5">
@@ -152,7 +125,7 @@
                         <a href="#" class="btn card-btn mx-5">Book Appointment</a>
                     </div>
                 </div>
-                <div class="card" style="width: 19rem;">
+                <div class="card" style="width: 19rem; height: 482px;">
                     <img src="../Images/Doctor-Steve.png" class="card-img-top" alt="...">
                     <div class="card-body mx-auto">
                         <h4 class="card-title">Steve</h4>
