@@ -802,7 +802,7 @@ transform: scale(1.05);
 }
 
 .list-unstyled li a{ 
-  color: #333;
+  color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
    text-decoration: none;
 }
